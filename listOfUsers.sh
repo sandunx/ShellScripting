@@ -40,7 +40,7 @@ function list_users_with_read_access {
     fi
 }
 
-# Main script
+# Main script added to code
 
 echo "Listing users with read access to ${REPO_OWNER}/${REPO_NAME}..."
 list_users_with_read_access
